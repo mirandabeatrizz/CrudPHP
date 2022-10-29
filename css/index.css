@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-login{
+    width: 100vw;
+    height: 100vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagem{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    width: 35vw;
+}
+
+.form{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #B58564;
+}
+
+.card{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 5px;
+    background: #5D4740;
+    border-radius: 15px;
+    box-shadow: 0px 10px 40px rgba(74, 69, 69, 0.799);
+    color: white;
+    font-weight: 600;
+    margin: 0;
+}
+
+h1{
+    padding: 0px 0px;
+    margin: 0;
+}
+
+.textfield{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 15px 0px;
+}
+
+.textfield >input{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: #d8bca0;
+    color: rgb(103, 102, 102);
+    font-size: 12pt;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.textfield >label{
+    color: aliceblue;
+    margin-bottom: 5px;
+}
+
+.textfield>input::placeholder{
+    color: rgb(160, 116, 116);
+}
+
+.btn-login{
+   width: 100%;
+   padding: 15px;
+   border: none;
+   border-radius: 8px;
+   outline: none;
+   cursor: pointer;
+   color: wheat;
+   background-color:#9D775D;
+    
+}
+
+.btn-login:hover{
+    color: rgb(223, 212, 189);
+   background-color:#80604b;;
+}

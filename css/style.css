@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #F8F8FF;
+}
+.main-content {
+  text-align: center;
+  height: 100vh;
+}
+.meulogo{
+text-align: center;
+}
+.login_img {
+  transform: translate(-50%, -50%);
+  position: relative;
+  top: 50%;
+  left: 90%;
+ 
+}
+.formularios{
+  position:relative;
+  left:29%;
+  top:3em;
+  width:640px;
+  height:400px;
+
+}
+form{
+  border-top-width: 3px;
+    border-top-style: solid;
+    border-top-color: #000;
+}
+.user-dashboard {
+  width: 400px;
+  box-shadow: 0px 1px 15px 3px #e3e3e3;
+  padding: 40px;
+  transform: translate(-50%, -50%);
+  position: relative;
+  left: 50%;
+  top: 50%;
+}
+.user-info .user-name {
+  font-size: 30px;
+  margin-bottom: 0;
+}
+.user-info .user-email {
+  font-size: 18px;
+  color: #4687ec;
+}
+.user-info .btn-logout {
+  text-decoration: navajowhite;
+  background: #d52b2b;
+  padding: 10px 25px;
+  display: inline-block;
+  color: #fff;
+  font-weight: bold;
+}
